@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="EcoContinuidad: tendencias, límites y continuidad aplicados a retos ambientales de Bucaramanga.">
+<title>EcoContinuidad | Tendencias y Continuidad</title>
+<style>
+:root{--ink:#17352d;--muted:#5b7068;--green:#176b50;--lime:#c9f27b;--mint:#eaf8ef;--cream:#f7f8f1;--white:#fff;--line:#dce8df;--orange:#f2a65a;--shadow:0 18px 45px #123a2712}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--cream);line-height:1.65}a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:10;background:#f7f8f1eF;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:900;letter-spacing:-.04em;text-decoration:none;font-size:1.25rem}.brand span{color:var(--green)}.navlinks{display:flex;gap:18px;flex-wrap:wrap}.navlinks a{text-decoration:none;color:var(--muted);font-size:.9rem;font-weight:700}.navlinks a:hover{color:var(--green)}.hero{padding:74px 0 62px;background:radial-gradient(circle at 85% 20%,#d9f4ad 0,transparent 27%),linear-gradient(135deg,#eff9ef,#f7f8f1 65%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:36px}.eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:900;color:var(--green)}h1{font-size:clamp(2.6rem,6vw,5rem);line-height:1.02;letter-spacing:-.065em;margin:14px 0 20px}h1 em{font-style:normal;color:var(--green)}.lead{font-size:1.12rem;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:13px 19px;text-decoration:none;font-weight:800;cursor:pointer;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--green);color:white}.secondary{background:white;color:var(--green);border:1px solid var(--line)}.hero-art{min-height:300px;border-radius:30px;background:linear-gradient(145deg,#155f48,#0b392d);padding:26px;color:white;position:relative;box-shadow:var(--shadow);overflow:hidden}.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid #ffffff30;border-radius:50%;width:290px;height:290px;right:-75px;top:-80px}.hero-art:after{width:220px;height:220px;right:-40px;top:-45px}.sun{position:absolute;right:50px;top:32px;width:72px;height:72px;background:var(--lime);border-radius:50%;box-shadow:0 0 0 15px #c9f27b24}.hill{position:absolute;bottom:-65px;left:-20px;width:120%;height:190px;border-radius:50% 50% 0 0;background:#77b96d;transform:rotate(-7deg)}.hill.two{bottom:-100px;left:100px;background:#b4dc83;transform:rotate(9deg)}.art-label{position:relative;z-index:2;font-weight:900;font-size:1.1rem;max-width:210px}.art-small{position:absolute;z-index:2;bottom:28px;left:28px;font-size:.85rem;color:#e7f7e8}.section{padding:76px 0}.section.alt{background:#edf5ed}.section-head{max-width:760px;margin-bottom:30px}.section h2{font-size:clamp(1.8rem,4vw,3rem);line-height:1.1;letter-spacing:-.045em;margin:10px 0 14px}.muted{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:var(--shadow)}.card .num{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:14px;background:var(--mint);color:var(--green);font-weight:900;margin-bottom:14px}.card h3{margin:0 0 8px;font-size:1.15rem}.pill{display:inline-block;padding:5px 10px;background:var(--mint);color:var(--green);font-size:.78rem;font-weight:800;border-radius:99px}.criteria{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.criterion{padding:20px;border-radius:18px;border:1px solid var(--line);background:white}.formula{background:#123d31;color:#f0ffe6;border-radius:12px;padding:12px 14px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;margin:12px 0}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.tab{border:1px solid var(--line);background:white;color:var(--green);padding:10px 15px;border-radius:99px;font-weight:800;cursor:pointer}.tab[aria-selected="true"]{background:var(--green);color:white}.tab-panel{background:white;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow)}.analysis-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;position:relative;padding:0 0 18px 48px}.steps li:before{content:counter(step);position:absolute;left:0;top:0;width:32px;height:32px;display:grid;place-items:center;border-radius:11px;background:var(--mint);color:var(--green);font-weight:900}.chart{background:#fff;border:1px solid var(--line);border-radius:18px;padding:14px}.chart svg{width:100%;height:auto;display:block}.chart-note{font-size:.85rem;color:var(--muted)}.callout{border-left:4px solid var(--orange);background:#fff7e9;padding:16px 18px;border-radius:0 14px 14px 0}.table-wrap{overflow-x:auto;background:white;border:1px solid var(--line);border-radius:16px}table{border-collapse:collapse;width:100%;min-width:480px}th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line)}th{background:#eaf5e9;color:var(--green)}tr:last-child td{border-bottom:0}.conclusions{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.conclusion{background:white;border:1px solid var(--line);border-radius:18px;padding:20px}.conclusion strong{display:block;margin-bottom:5px}.quiz{background:#123d31;color:white;border-radius:24px;padding:28px}.quiz h3{margin-top:0}.q{padding:16px 0;border-bottom:1px solid #ffffff2b}.q:last-of-type{border:0}.q label{display:block;margin:7px 0;color:#e5f4e7;cursor:pointer}.quiz button{margin-top:16px}.feedback{margin-top:14px;font-weight:800}.footer{padding:28px 0;background:#0d3027;color:#d9ebdc;font-size:.9rem}.footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.small{font-size:.85rem}.backtop{position:fixed;bottom:18px;right:18px;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;text-decoration:none;background:var(--green);color:white;box-shadow:var(--shadow)}
+@media(max-width:800px){.hero-grid,.analysis-grid{grid-template-columns:1fr}.hero-art{min-height:250px}.cards,.criteria{grid-template-columns:1fr}.conclusions{grid-template-columns:1fr}.nav{padding:12px 0;align-items:flex-start;flex-direction:column}.navlinks{gap:10px}.section{padding:55px 0}.hero{padding:50px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a class="brand" href="#inicio">🌿 <span>Eco</span>Continuidad</a>
+<nav class="navlinks" aria-label="Navegación principal">
+<a href="#reto">Reto ambiental</a><a href="#continuidad">Continuidad</a><a href="#analisis">Análisis</a><a href="#conclusiones">Conclusiones</a><a href="#quiz">Repasar</a>
+</nav></div></header>
+<main id="inicio">
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">Cálculo diferencial · Fase 2</div>
+<h1>Tendencias y <em>Continuidad</em></h1>
+<p class="lead">Previendo el futuro ambiental de Bucaramanga. Las matemáticas permiten interpretar cambios en el clima y el consumo de recursos para comprender problemas ambientales y apoyar decisiones sostenibles.</p>
+<div class="actions"><a class="btn primary" href="#reto">Explorar contenido ↓</a><a class="btn secondary" href="#analisis">Ir al análisis matemático ↗</a></div></div>
+<div class="hero-art" aria-label="Ilustración abstracta de un paisaje verde"><div class="sun"></div><div class="art-label">Matemáticas para entender nuestro entorno.</div><div class="hill"></div><div class="hill two"></div><div class="art-small">Bucaramanga · Santander</div></div>
+</div></section>
+
+<section class="section" id="reto"><div class="wrap">
+<div class="section-head"><div class="eyebrow">01 · Contexto regional</div><h2>El reto ambiental de nuestra región</h2><p class="muted">El cambio climático puede modificar las condiciones de temperatura, precipitación y disponibilidad de recursos. Necesitamos modelos que permitan observar tendencias, detectar cambios y anticipar escenarios.</p></div>
+<div class="cards">
+<article class="card"><div class="num">01</div><h3>Colapso de servicios por olas de calor</h3><p class="muted">Las temperaturas extremas pueden aumentar el consumo de agua potable y energía, amenazando la continuidad del suministro en los hogares.</p><span class="pill">Temperatura · Recursos</span></article>
+<article class="card"><div class="num">02</div><h3>Riesgos por lluvias atípicas</h3><p class="muted">Las precipitaciones intensas pueden sobrecargar el alcantarillado y elevar el riesgo de inundaciones y deslizamientos en zonas de ladera.</p><span class="pill">Lluvia · Infraestructura</span></article>
+<article class="card"><div class="num">03</div><h3>¿Qué aportan las matemáticas?</h3><p class="muted">Los límites y la continuidad ayudan a describir el comportamiento de un modelo, detectar puntos críticos y estimar tendencias.</p><span class="pill">Modelación matemática</span></article>
+</div></div></section>
+
+<section class="section alt" id="continuidad"><div class="wrap">
+<div class="section-head"><div class="eyebrow">02 · Fundamentación</div><h2>¿Por qué estudiar la continuidad?</h2><p class="muted">Una función continua representa un cambio sin interrupciones en un punto. En un modelo ambiental, esto ayuda a determinar si una variable cambia gradualmente o presenta una alteración.</p></div>
+<div class="criteria">
+<div class="criterion"><span class="pill">01 · Definición</span><h3>La función está definida</h3><p class="muted">Debe existir un valor de la función en el punto.</p><div class="formula">f(a) existe</div></div>
+<div class="criterion"><span class="pill">02 · Límite</span><h3>El límite existe</h3><p class="muted">Los límites laterales deben coincidir.</p><div class="formula">lim x→a⁻ f(x) = lim x→a⁺ f(x)</div></div>
+<div class="criterion"><span class="pill">03 · Igualdad</span><h3>El límite coincide con el valor</h3><p class="muted">El valor al que se acerca la función debe ser el valor en el punto.</p><div class="formula">lim x→a f(x) = f(a)</div></div>
+</div>
+<div class="section-head" style="margin-top:42px;margin-bottom:14px"><div class="eyebrow">03 · Tipos de discontinuidad</div><h2>Cuando el modelo presenta una interrupción</h2><p class="muted">Selecciona cada tipo para ver una explicación y su interpretación ambiental.</p></div>
+<div class="tabs" role="tablist" aria-label="Tipos de discontinuidad">
+<button class="tab" role="tab" aria-selected="true" aria-controls="panel-rem" id="tab-rem" data-tab="rem">Removible</button>
+<button class="tab" role="tab" aria-selected="false" aria-controls="panel-salto" id="tab-salto" data-tab="salto">De salto</button>
+<button class="tab" role="tab" aria-selected="false" aria-controls="panel-inf" id="tab-inf" data-tab="inf">Infinita</button>
+</div>
+<div class="tab-panel" id="panel-rem" role="tabpanel" aria-labelledby="tab-rem"><h3>Discontinuidad removible</h3><p>Existe un valor que falta o no coincide con la tendencia, pero el comportamiento alrededor del punto permite estimarlo.</p><div class="formula">f(x) = (x² − 4)/(x − 2) = x + 2, para x ≠ 2</div><p class="muted">Situación ambiental: una estación de monitoreo presenta una medición faltante. Los datos cercanos permiten aproximar el valor ausente sin cambiar la tendencia general.</p></div>
+<div class="tab-panel" id="panel-salto" role="tabpanel" aria-labelledby="tab-salto" hidden><h3>Discontinuidad de salto</h3><p>Los límites laterales existen, pero tienen valores diferentes; la gráfica presenta un salto.</p><div class="formula">lim x→a⁻ f(x) ≠ lim x→a⁺ f(x)</div><p class="muted">Ejemplo interpretativo: un indicador puede cambiar bruscamente entre dos periodos o condiciones. Es una ilustración conceptual, no una medición real de Bucaramanga.</p></div>
+<div class="tab-panel" id="panel-inf" role="tabpanel" aria-labelledby="tab-inf" hidden><h3>Discontinuidad infinita</h3><p>La función crece o decrece sin límite al acercarse a un punto; puede aparecer una asíntota vertical.</p><div class="formula">lim x→a⁻ f(x) = +∞ · lim x→a⁺ f(x) = −∞</div><p class="muted">En el modelo de alcantarillado de este trabajo, x = 5 representa un umbral crítico matemático.</p></div>
+</div></section>
+
+<section class="section" id="analisis"><div class="wrap">
+<div class="section-head"><div class="eyebrow">04 · Función 1 · Racional</div><h2>Análisis finito: puntos críticos e indeterminación</h2><p class="muted">Se modela la carga de un sistema de alcantarillado durante una lluvia intensa. Aquí, x representa la intensidad de lluvia en decenas de mm/h y f(x) el índice de carga relativa de la red.</p><div class="formula">f(x) = (x² − 9) / ((x − 3)(5 − x))</div><p class="small muted">Dominio físico indicado en el trabajo: 0 ≤ x &lt; 5.</p></div>
+<div class="analysis-grid"><div>
+<ol class="steps">
+<li><strong>Identificar dónde se indefine</strong><p class="muted">El denominador vale cero cuando (x − 3)(5 − x) = 0, por lo tanto x = 3 o x = 5.</p></li>
+<li><strong>Clasificar las formas</strong><p class="muted">En x = 3, numerador y denominador son cero: forma 0/0. En x = 5, el numerador vale 16 y el denominador cero: forma k/0.</p></li>
+<li><strong>Factorizar y simplificar</strong><div class="formula">x² − 9 = (x − 3)(x + 3)<br>f(x) = (x + 3)/(5 − x), x ≠ 3, 5</div></li>
+<li><strong>Calcular el límite en x = 3</strong><div class="formula">lim x→3 f(x) = (3 + 3)/(5 − 3) = 6/2 = 3</div><p class="muted">Como f(3) no existe pero el límite sí, la discontinuidad es removible. Se puede reparar definiendo f(3) = 3.</p></li>
+<li><strong>Analizar x = 5</strong><div class="formula">lim x→5⁻ f(x) = +∞<br>lim x→5⁺ f(x) = −∞</div><p class="muted">El límite es infinito y hay una asíntota vertical en x = 5.</p></li>
+</ol>
+<div class="callout"><strong>Interpretación ambiental</strong><br>En x = 3 (30 mm/h), una lectura faltante podría estimarse con los valores vecinos. Al acercarse a x = 5 (50 mm/h), el modelo señala un umbral crítico asociado a una posible saturación.</div>
+</div>
+<div><div class="chart"><svg viewBox="0 0 500 340" role="img" aria-label="Gráfica ilustrativa de la función racional, con hueco en x igual a 3 y asíntota vertical x igual a 5">
+<rect x="0" y="0" width="500" height="340" rx="12" fill="#fbfdf9"/>
+<g stroke="#e3ece4" stroke-width="1"><path d="M50 40H465 M50 90H465 M50 140H465 M50 190H465 M50 240H465 M50 290H465"/><path d="M90 25V300 M150 25V300 M210 25V300 M270 25V300 M330 25V300 M390 25V300 M450 25V300"/></g>
+<path d="M45 190H470 M90 310V20" stroke="#668078" stroke-width="1.5"/>
+<path d="M330 20V305" stroke="#e08a36" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M90 229 C135 220 175 207 210 190 S270 164 290 145" fill="none" stroke="#187456" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M292 145 C306 127 318 97 326 40" fill="none" stroke="#187456" stroke-width="3.5" stroke-linecap="round"/>
+<path d="M334 302 C340 255 348 230 365 213 S420 195 462 188" fill="none" stroke="#187456" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="290" cy="145" r="6" fill="#fff" stroke="#187456" stroke-width="3"/>
+<text x="300" y="133" fill="#176b50" font-size="12" font-weight="700">hueco (3, 3)</text>
+<text x="338" y="33" fill="#b9651b" font-size="12" font-weight="700">x = 5</text>
+<text x="466" y="208" fill="#5b7068" font-size="11" text-anchor="end">x</text><text x="72" y="22" fill="#5b7068" font-size="11">f(x)</text>
+<g fill="#5b7068" font-size="11" text-anchor="middle"><text x="90" y="322">0</text><text x="150" y="322">1</text><text x="210" y="322">2</text><text x="290" y="322">3</text><text x="330" y="322">4</text><text x="370" y="322">5</text></g>
+</svg><p class="chart-note">Esquema conceptual para mostrar el hueco y la asíntota. La rama a la derecha de x = 5 solo ilustra el comportamiento matemático; el dominio físico del modelo es 0 ≤ x &lt; 5.</p></div></div></div>
+
+<div class="section-head" style="margin-top:62px"><div class="eyebrow">05 · Función 2 · Exponencial</div><h2>Análisis asintótico: tendencia a largo plazo</h2><p class="muted">El modelo representa una temperatura media proyectada. t indica los años transcurridos desde 2026, con t ≥ 0.</p><div class="formula">T(t) = 26 − 2,5 · e^(−0,05t)</div></div>
+<div class="analysis-grid"><div><ol class="steps">
+<li><strong>Valor inicial</strong><div class="formula">T(0) = 26 − 2,5 · e⁰ = 23,5 °C</div></li>
+<li><strong>Límite al infinito</strong><p class="muted">Cuando t → ∞, e^(−0,05t) → 0.</p><div class="formula">lim t→∞ T(t) = 26 − 2,5 · 0 = 26</div></li>
+<li><strong>Asíntotas</strong><p class="muted">Asíntota horizontal: y = 26. No tiene asíntota vertical. En el modelo se considera t ≥ 0.</p></li>
+</ol><div class="callout"><strong>Lectura de alerta</strong><br>Que la curva se estabilice no significa que el problema desaparezca. El modelo proyecta una temperatura media que se acerca a 26 °C; es un escenario matemático, no una predicción oficial.</div></div>
+<div><div class="chart"><svg viewBox="0 0 500 310" role="img" aria-label="Gráfica de una función exponencial que se acerca a 26 grados Celsius">
+<rect width="500" height="310" rx="12" fill="#fbfdf9"/><g stroke="#e3ece4"><path d="M55 45H465 M55 95H465 M55 145H465 M55 195H465 M55 245H465"/><path d="M55 35V260 M137 35V260 M219 35V260 M301 35V260 M383 35V260 M465 35V260"/></g>
+<path d="M50 260H470 M55 270V30" stroke="#668078" stroke-width="1.5"/>
+<path d="M55 65H465" stroke="#e08a36" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M55 225 C95 180 135 143 180 112 S280 77 350 69 S425 66 465 65" fill="none" stroke="#187456" stroke-width="4" stroke-linecap="round"/>
+<circle cx="55" cy="225" r="5" fill="#187456"/><text x="66" y="217" fill="#176b50" font-size="12" font-weight="700">T(0) = 23,5</text><text x="460" y="55" text-anchor="end" fill="#b9651b" font-size="12" font-weight="700">y = 26 °C</text>
+<g fill="#5b7068" font-size="11" text-anchor="middle"><text x="55" y="285">0</text><text x="137" y="285">20</text><text x="219" y="285">40</text><text x="301" y="285">60</text><text x="383" y="285">80</text><text x="465" y="285">100</text></g><text x="460" y="302" fill="#5b7068" font-size="11" text-anchor="end">t · años desde 2026</text>
+</svg><p class="chart-note">Gráfica esquemática: la temperatura se acerca a 26 °C sin alcanzar esa asíntota en el modelo.</p></div></div></div>
+<div style="margin-top:24px"><h3>Tabla de valores</h3><div class="table-wrap"><table><thead><tr><th>t (años)</th><th>0</th><th>10</th><th>20</th><th>50</th><th>100</th></tr></thead><tbody><tr><th>T(t) °C</th><td>23,50</td><td>24,48</td><td>25,08</td><td>25,79</td><td>25,98</td></tr></tbody></table></div></div>
+</div></section>
+
+<section class="section alt" id="conclusiones"><div class="wrap">
+<div class="section-head"><div class="eyebrow">06 · Resultados</div><h2>Conclusiones e interpretación ambiental</h2><p class="muted">Los límites permiten interpretar datos faltantes, reconocer umbrales críticos y describir tendencias a largo plazo.</p></div>
+<div class="conclusions">
+<div class="conclusion"><strong>① Lo removible se estima</strong><span class="muted">En x = 3 el límite vale 3. Un dato faltante no rompe la tendencia y puede reconstruirse matemáticamente a partir de los valores cercanos.</span></div>
+<div class="conclusion"><strong>② Lo infinito es una alarma</strong><span class="muted">La asíntota vertical x = 5 marca un umbral crítico del modelo de alcantarillado. Conocerlo ayuda a pensar en prevención.</span></div>
+<div class="conclusion"><strong>③ Lo asintótico da una tendencia</strong><span class="muted">El límite de 26 °C indica hacia dónde se acerca la temperatura en el modelo exponencial planteado.</span></div>
+<div class="conclusion"><strong>🌱 ¿Qué podemos hacer en Bucaramanga?</strong><span class="muted">Ampliar zonas verdes permeables y retención de agua lluvia; sembrar y proteger árboles; ahorrar agua y energía en olas de calor; e instalar más sensores de monitoreo.</span></div>
+</div>
+</div></section>
+
+<section class="section" id="quiz"><div class="wrap"><div class="quiz">
+<div class="eyebrow" style="color:#c9f27b">07 · Preparación</div><h2>Comprueba lo aprendido</h2><p>Responde estas preguntas para repasar los conceptos del proyecto.</p>
+<form id="quiz-form">
+<div class="q"><strong>1. ¿Cuáles son las tres condiciones para que una función sea continua en x = a?</strong>
+<label><input type="radio" name="q1" value="a"> Que f(a) exista, que exista el límite y que ambos coincidan.</label>
+<label><input type="radio" name="q1" value="b"> Que la función sea siempre creciente.</label></div>
+<div class="q"><strong>2. ¿Por qué x = 3 es una discontinuidad removible en el modelo racional?</strong>
+<label><input type="radio" name="q2" value="a"> Porque los límites laterales son infinitos.</label>
+<label><input type="radio" name="q2" value="b"> Porque el límite existe y vale 3, aunque f(3) no esté definida.</label></div>
+<div class="q"><strong>3. ¿Qué representa la asíntota horizontal y = 26 en el modelo de temperatura?</strong>
+<label><input type="radio" name="q3" value="a"> La temperatura inicial.</label>
+<label><input type="radio" name="q3" value="b"> La temperatura a la que se acerca el modelo a largo plazo.</label></div>
+<button class="btn" style="background:#c9f27b;color:#17352d" type="submit">Revisar respuestas</button><button class="btn secondary" type="reset">Volver a intentar</button>
+<div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+</form></div></div></section>
+</main>
+<footer class="footer"><div class="wrap"><span>🌿 EcoContinuidad · Tendencias y Continuidad</span><span>Proyecto de Cálculo Diferencial · Bucaramanga, Santander · 2026</span></div></footer>
+<a class="backtop" href="#inicio" aria-label="Volver al inicio">↑</a>
+<script>
+const tabs=[...document.querySelectorAll('[data-tab]')];
+tabs.forEach(tab=>tab.addEventListener('click',()=>{
+ tabs.forEach(t=>t.setAttribute('aria-selected',String(t===tab)));
+ document.querySelectorAll('.tab-panel').forEach(p=>p.hidden=true);
+ const panel=document.getElementById('panel-'+tab.dataset.tab); if(panel) panel.hidden=false;
+}));
+document.getElementById('quiz-form').addEventListener('submit',e=>{
+ e.preventDefault(); const answers={q1:'a',q2:'b',q3:'b'}; let score=0;
+ for(const [q,a] of Object.entries(answers)){const selected=document.querySelector('input[name="'+q+'"]:checked');if(selected&&selected.value===a)score++;}
+ const feedback=document.getElementById('feedback');
+ feedback.textContent='Tu resultado: '+score+' de 3 respuestas correctas.'+(score===3?' ¡Excelente, dominas los conceptos!': ' Revisa las explicaciones y vuelve a intentarlo.');
+});
+document.getElementById('quiz-form').addEventListener('reset',()=>{document.getElementById('feedback').textContent='';});
+</script>
+</body></html>
